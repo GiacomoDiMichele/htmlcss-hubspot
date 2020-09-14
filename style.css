@@ -489,6 +489,7 @@ height: 600px;
 
 .footer-list h5{
     font-size: 1.3em;
+    color: #EAF0F6;
 }
 
 #button-section-footer{
@@ -500,4 +501,25 @@ height: 600px;
     font-weight: bolder;
     text-decoration: none;
     display: inline-block;
+}
+
+.lista-quattro i{
+    font-size: 30px;
+    color: #EAF0F6;
+    padding: 5px;
+}
+
+.lingue-supportate{
+    width: 60%;
+    margin: auto;
+}
+
+.lingue-supportate li{
+    display: inline-block;
+}
+
+.lingue-supportate a{
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
 }
