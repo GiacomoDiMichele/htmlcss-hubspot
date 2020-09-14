@@ -14,6 +14,8 @@
     margin: auto;
 }
 
+/*INIZIO HEADER*/
+
  header {
      width: 100%;
  }
@@ -32,6 +34,9 @@
     display: table;
     clear: both;
 }
+
+
+/*INIZIO HEADER-TOP*/
 
 .header-top-left{
     float:left;
@@ -101,6 +106,9 @@
     text-decoration: none;
 }
 
+
+/*HEADER-BOTTOM*/
+
  .header-bottom {
      padding-top:70px;
      width:100%;
@@ -141,6 +149,9 @@
     text-decoration: none;
     color: #33475B;
 }
+
+
+/*INIZIO-BANNER*/
 
 .banner {
     color: white;
@@ -202,6 +213,9 @@
     border-bottom: 3px solid #33475C;
 }
 
+
+/*SEZIONE OFFERTE PACCHETTI HUBSPOT*/
+
 .offers{
     width: 100%;
     background-color: #dcecf7;
@@ -214,7 +228,7 @@
 }
 
 .sale-pack{
-    width: 30%;
+    width: calc(30% - 35px);
     float: left;
     margin-left: 35px;
     margin-top: 30px;
@@ -236,12 +250,12 @@
 }
 
 .contained:first-child h2{
-    font-size: 2em;
+    font-size: 1.2em;
     display: inline-block;
 }
 
 #second-pack{
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
 #second-pack p{
@@ -278,45 +292,48 @@ border-bottom: 1px solid black;
     border-bottom: 1px solid black;
 }
 
- #third-pack h4{
+#third-pack h4{
      margin-top: 14px;
  }
 
- #fourth-pack{
+#fourth-pack{
      background-color: white;
  }
 
- #fourth-pack p{
+#fourth-pack p{
      border-bottom: 1px solid black;
  }
 
-  #fourth-pack h4{
+#fourth-pack h4{
       margin-top: 14px;
   }
 
-  #fifth-pack{
+#fifth-pack{
       background-color: white;
   }
 
-  #fifth-pack p{
+#fifth-pack p{
       border-bottom: 1px solid black;
   }
 
-   #fifth-pack h4{
+#fifth-pack h4{
        margin-top: 14px;
    }
 
-   #sixth-pack{
+#sixth-pack{
        background-color: white;
    }
 
-   #sixth-pack p{
+#sixth-pack p{
        border-bottom: 1px solid black;
    }
 
-    #sixth-pack h4{
+#sixth-pack h4{
         margin-top: 14px;
     }
+
+
+/*SEZIONE-GRIGLIA*/
 
 .grid{
     width: 100%;
@@ -343,21 +360,21 @@ border-bottom: 1px solid black;
 }
 
 .tabelle{
-    float: left;
     width: 100%;
     margin-top: 130px;
 }
 
 .tabella{
     border-right: 1px solid white;
-    float:left;
-    width: 25%;
-    padding:50px;
+    display: inline-block;
+    width: calc(25% - 4px);
+    padding:16px;
     text-align: center;
+    min-height: 118px;
 }
 
 .numbers{
-    font-size: 4.0em;
+    font-size: 3.0em;
     position: relative;
 }
 
@@ -368,13 +385,15 @@ border-bottom: 1px solid black;
 }
 
 .border-mid{
-    height: 192px;
     border-bottom: 1px solid white;
 }
 
 #border-right{
     border-right: none;
 }
+
+
+/*SEZ-CUSTOMERS*/
 
 .sponsor{
     width: 100%;
@@ -455,10 +474,13 @@ font-size: 0.9em;
     margin-left: 40%;
 }
 
+
+/*INIZIO FOOTER*/
+
 footer{
 background-color: #33475B;
 width: 100%;
-height: 600px;
+padding-bottom: 20px;
 }
 
 .footer-list{
@@ -471,10 +493,13 @@ height: 600px;
     text-align: left;
     padding: 24px;
     float: left;
+    width: 20%;
+    margin-left: 15px;
 }
 
 .footer-list li{
     padding-top: 24px;
+    width:143%;
 }
 
 .footer-list a{
@@ -494,13 +519,16 @@ height: 600px;
 
 #button-section-footer{
     background-color: white;
-    padding: 30px;
+    padding: 13px;
     border: 1px solid black;
     border-radius: 4%;
     color: black;
     font-weight: bolder;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
+    width: 111%;
+
 }
 
 .lista-quattro i{
@@ -510,16 +538,60 @@ height: 600px;
 }
 
 .lingue-supportate{
-    width: 60%;
+    text-align: center;
+    display: block;
+    width: 70%;
     margin: auto;
 }
 
 .lingue-supportate li{
     display: inline-block;
+    text-align: center;
+
 }
 
 .lingue-supportate a{
+    color: #EAF0F6;
     padding: 10px;
-    font-size: 25px;
+    font-size: 1.2em;
     text-decoration: none;
+}
+
+.lingue-supportate a:hover{
+    color: #7FD1D6;
+}
+
+.border-footer{
+    border-bottom: 1px solid #EAF0F6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bottom-footer{
+    width: 100%;
+}
+
+.bottom-footer-left{
+    width: 50%;
+    float: left;
+    padding:10px;
+}
+
+.bottom-footer p{
+    margin-top: 5px;
+}
+
+.bottom-footer-right li{
+    display: inline-block;
+    margin:10px;
+}
+
+.bottom-footer-right a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #EAF0F6;
+}
+
+.bottom-footer-right{
+    float:right;
 }
